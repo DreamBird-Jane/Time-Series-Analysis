@@ -1,0 +1,18 @@
+Name of Quantlet: 'Step1. Generate Fair and Loaded Dice Sample'
+
+Description: 'Generate random sample – Observations & Hidden states of dice (with Faif and Loaded dice used interchangeably), sample size is set as N'
+
+Submitted:  '22 Dec 2020'
+
+Keywords: 
+- 'Hidden Markov Model'
+- 'HMM'
+- 'Casino Dice simulation data'
+- 'Fair Dice'
+- 'Loaded Dice'
+
+Output:  
+- 'Sample_Obs.csv'
+- 'Sample_Hid.csv'
+
+Author: 'Jane Hsieh (Hsing-Chuan Hsieh)'
