@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 os.getcwd()
-os.chdir('/Users/jane_hsieh/OneDrive - nctu.edu.tw/Data Science Analysis Templates/Tiem Series Analysis/Hidden Markov Model (HMM)')
+# use os.chdir('/your local directory') if needed
 
 #0. ================================================ Functions ===============================================
 
