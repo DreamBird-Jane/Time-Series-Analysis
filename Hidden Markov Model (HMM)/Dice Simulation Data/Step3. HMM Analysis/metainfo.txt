@@ -17,4 +17,6 @@ Input: 'the module–"Generate_Dice_Sample.py" is used to generate fair and load
 
 Output: 'First 300 cases of dice sequence.png'
 
-Author: 'Jane Hsieh (Hsing-Chuan Hsieh)'
+Author: 
+- 'Jane Hsieh (Hsing-Chuan Hsieh)'
+- 'Wolfgang Karl Härdle'
