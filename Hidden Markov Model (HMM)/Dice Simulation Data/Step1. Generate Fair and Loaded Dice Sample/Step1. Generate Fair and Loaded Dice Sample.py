@@ -71,7 +71,7 @@ def TransitState(S_t, p01, p10):
 
 def GenerateFLDice(N, p01, p10, pL, pF=[1/6 for i in range(6)], Dice = [i+1 for i in range(6)], pi_0=0.5, seed=None):
     '''
-    Generate random sample of dice (with predefined Fair(R) and Loaded(L) dice used interchangeably)
+    Generate random sample of dice (with predefined Fair(F) and Loaded(L) dice used interchangeably)
     
     Input:
         N: sample size
