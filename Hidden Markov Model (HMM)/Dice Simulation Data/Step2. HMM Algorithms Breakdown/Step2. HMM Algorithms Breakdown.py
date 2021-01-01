@@ -106,10 +106,13 @@ def Build_Viterbi(Obs, Pi, P, E):
 V = Build_Viterbi(Obs, Pi, P, E)
 
 def Viterbi_Traceback(V):
+    '''
+    find most likely assignment of state sequence (i.e., Seq_Decoding2)
+    '''
     T, K = V.shape
     Seq_Decoding2 = np.zeros(T)
     
-    #Initial:
+    #Termination:
     Seq_Decoding2[T-1] = V[T-1].argmax()
     
     #Iterate:
