@@ -1,5 +1,7 @@
 Name of Quantlet: 'Step1. Generate Fair and Loaded Dice Sample'
 
+Published in: 'DEDA class 2021'
+
 Description: 'Generate random sample – Observations & Hidden states of dice (with Faif and Loaded dice used interchangeably), sample size is set as N'
 
 Submitted:  '01 Jan 2021'
