@@ -75,6 +75,7 @@ def Build_Beta(Obs, Pi, P, E):
     
 Beta = Build_Beta(Obs, Pi, P, E)
 
+#Termination:
 # Decoding1 matrix is p(S_t=k|{O_t}_{t=1}^T)
 Decoding1 = Alpha * Beta
 Decoding1 = Decoding1 / Decoding1.sum(axis =1)[:, np.newaxis]
