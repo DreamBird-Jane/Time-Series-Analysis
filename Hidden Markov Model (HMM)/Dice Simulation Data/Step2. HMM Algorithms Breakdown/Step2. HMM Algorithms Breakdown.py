@@ -19,7 +19,7 @@ pF = [1/6 for i in range(6)]
 pL=[0.1, 0.1, 0.1, 0.1, 0.1, 0.5]
 
 ## HMM-related parameters
-Pi = np.array([0.5, 0.5])   # initial probs of hiddent states {0, 1}  [0: fair dice; 1: Loaded dice]; p(S_0=1) = 1-pi_0
+Pi = np.array([0.5, 0.5])   # initial probs of hidden states {0, 1}  [0: fair dice; 1: Loaded dice]; p(S_0=1) = 1-pi_0
 P = np.array([[0.95, 0.05], [0.05, 0.95]]) #Transition matrix T = [p_{i,j}] = [p(Sj|Si)]
 E = np.array([pF,pL]) #Emission matrix E = [q_i^y] = [p(O=y|S=i)]
 
